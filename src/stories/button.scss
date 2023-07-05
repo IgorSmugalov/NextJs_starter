@@ -2,21 +2,25 @@
   display: inline-block;
   border: 0;
   border-radius: 3em;
+  cursor: pointer;
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   line-height: 1;
-  cursor: pointer;
 }
 
-.storybook-button--primary {
+.toryoo__button--primary {
   background-color: #1ea7fd;
-  color: white;
+  color: #fff;
 }
 
-.storybook-button--secondary {
+.asdaSasdsdas {
   background-color: transparent;
+  box-shadow: rgb(0 0 0 / 15%) 0 0 0 1px inset;
   color: #333;
-  box-shadow: rgba(0, 0, 0, 0.15) 0 0 0 1px inset;
+
+  &asda {
+    display: block;
+  }
 }
 
 .storybook-button--small {
